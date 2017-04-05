@@ -7,6 +7,9 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\s_ship</sprite>
+    <sprite>sprites\s_laser</sprite>
+    <sprite>sprites\s_enemyOne</sprite>
+    <sprite>sprites\s_explosionCenter</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\b_starsFar</background>
@@ -15,6 +18,10 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\o_ship</object>
+    <object>objects\o_laser</object>
+    <object>objects\o_enemyOne</object>
+    <object>objects\o_enemySpawner</object>
+    <object>objects\o_explosionCenter</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_space</room>
